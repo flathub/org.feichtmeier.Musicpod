@@ -39,11 +39,13 @@
                 "/share/man",
                 "/share/zsh"
             ],
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 waf configure --prefix=/app --enable-libmpv-shared --disable-build-date --disable-alsa",
-                "python3 waf build",
-                "python3 waf install"
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuild-date=false",
+                "-Dlibmpv=true",
+                "-Dcplayer=false",
+                "-Dmanpage-build=disabled",
+                "-Dalsa=disabled"
             ],
             "sources": [
                 {
@@ -55,18 +57,6 @@
                         "project-id": 5348,
                         "stable-only": true,
                         "url-template": "https://github.com/mpv-player/mpv/archive/v$version.tar.gz"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://waf.io/waf-2.1.0",
-                    "sha256": "f43006c7754b4a03fd69bd6f3896ff4750cf135da980e29e38d8dfd4a2891f32",
-                    "dest-filename": "waf",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 5116,
-                        "stable-only": true,
-                        "url-template": "https://waf.io/waf-$version"
                     }
                 }
             ],
@@ -113,6 +103,33 @@
                                 "project-id": 1560,
                                 "stable-only": true,
                                 "url-template": "https://github.com/libass/libass/releases/download/$version/libass-$version.tar.xz"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "libplacebo",
+                    "cleanup": [
+                        "/include",
+                        "/lib/*.la",
+                        "/lib/pkgconfig"
+                    ],
+                    "buildsystem": "meson",
+                    "config-opts": [
+                        "-Dglslang=disabled"
+                    ],
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://github.com/haasn/libplacebo.git",
+                            "mirror-urls": [
+                                "https://code.videolan.org/videolan/libplacebo.git"
+                            ],
+                            "tag": "v6.338.2",
+                            "commit": "64c1954570f1cd57f8570a57e51fb0249b57bb90",
+                            "x-checker-data": {
+                                "type": "git",
+                                "tag-pattern": "^v([\\d.]+)$"
                             }
                         }
                     ]
