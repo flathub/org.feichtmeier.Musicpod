@@ -57,6 +57,7 @@
                         "url-template": "https://github.com/mpv-player/mpv/archive/v$version.tar.gz"
                     }
                 },
+                
                 {
                     "type": "file",
                     "url": "https://waf.io/waf-2.1.0",
@@ -92,6 +93,26 @@
                             }
                         }
                     ]
+                },
+                {
+                    "name": "libplacebo",
+                    "buildsystem": "meson",
+                    "cleanup": [
+                        "/include",
+                        "/lib/pkgconfig"
+                    ],
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://github.com/haasn/libplacebo.git",
+                            "commit": "64c1954570f1cd57f8570a57e51fb0249b57bb90",
+                            "x-checker-data": {
+                                "type": "git",
+                                "tag-pattern": "^v([\\d.]+)$"
+                            },
+                            "tag": "v6.338.2"
+                        }
+                    ],
                 },
                 {
                     "name": "libass",
