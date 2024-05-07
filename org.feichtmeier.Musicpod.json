@@ -204,7 +204,7 @@
                         {
                             "type": "file",
                             "sha256": "0041d0c358f8bcaff80c06968abd3006a4858d39576e22166b0037be320a32b5",
-                            "url": "https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/0fb609108f5edeede927eef97a348e57fc884141/flatpak/org.feichtmeier.Musicpod.appdata.xml"
+                            "url": "https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/de971f6f62c114c1dcd77f7c142bb3485e53035b/flatpak/org.feichtmeier.Musicpod.appdata.xml"
                         },
                         {
                             "type": "file",
