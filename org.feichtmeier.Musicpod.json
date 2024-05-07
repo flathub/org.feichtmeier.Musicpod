@@ -203,8 +203,8 @@
                     "sources": [
                         {
                             "type": "file",
-                            "sha256": "3c0450f4f727db2a30728fc8e6392b685ece49e0f78c652194a13c74ceaa3c87",
-                            "url": "https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/125f383f759e5d6e35f77ced2f8f65c853072305/flatpak/org.feichtmeier.Musicpod.appdata.xml"
+                            "sha256": "eb9e12823185b32b8392a10c0c3300765d8b3711da67eab33ec271dd77468599",
+                            "url": "https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/de971f6f62c114c1dcd77f7c142bb3485e53035b/flatpak/org.feichtmeier.Musicpod.appdata.xml"
                         },
                         {
                             "type": "file",
