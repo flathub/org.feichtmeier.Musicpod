@@ -46,12 +46,15 @@
   </screenshots>
   
   <releases>
+    <release version="0+git.4811c0e" date="2024-08-15">
+      <description></description>
+    </release>
     <release date="2024-08-01" version="1.5.2"/>    
     <release date="2024-05-06" version="0.3.7"/>
     <release date="2022-03-12" version="0.1.1"/>
   </releases>
 
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 
   <launchable type="desktop-id">org.feichtmeier.Musicpod.desktop</launchable>
 </component>
