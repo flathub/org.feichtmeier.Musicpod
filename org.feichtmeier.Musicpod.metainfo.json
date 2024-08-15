@@ -203,7 +203,7 @@
                     "sources": [
                         {
                             "type": "file",
-                            "path": "org.feichtmeier.Musicpod.metainfo.xml"
+                            "path": "org.feichtmeier.Musicpod.appdata.xml"
                         },
                         {
                             "type": "file",
