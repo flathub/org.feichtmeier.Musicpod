@@ -10,9 +10,23 @@
   <url type="homepage">https://github.com/ubuntu-flutter-community/musicpod</url>
   
   <description>
-    <p>
-      Play local audio files, browse podcasts online or listen to internet radio stations.
-    </p>
+    <p>A Music, podcasts, and internet radio player built with Flutter for your Linux Desktop</p>
+    <p>Musicpod isn't <em>just</em> a music player. You can bro browse podcasts or listen to internet radio stations - all in one app!</p>
+    <ul>
+        <li>Play local audio files (mp3, flac, mp4, ogg)</li>
+        <li>Find your local audio library sorted by metadata</li>
+        <li>Search for local audio files sorted by title, album, genre and artist instantly</li>
+        <li>Play internet radio and TV stations and search them by tag, name or country, with icytags displayed and images loaded on demand!</li>
+        <li>Play podcasts and find them by country, topic and name</li>
+        <li>Download podcasts</li>
+        <li>Video podcast support!</li>
+        <li>Pin your favorite albums</li>
+        <li>Subscribe to podcasts</li>
+        <li>Gather a collection of your favorite radio/TV stations</li>
+        <li>Jump easily between local audio genres and radio station genres</li>
+        <li>Collect your favorite songs with the heart button</li>
+    <li>And much, much more!</li>
+    </ul>
   </description>
 <developer id="org.feichtmeier">
   <name>Frederik Feichtmeier</name>
@@ -21,33 +35,33 @@
   <screenshots>
     <screenshot type="default">
       <caption>Album - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/album_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_light_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Album - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/album_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_dark_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Fullscreen - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/full_window_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_light_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Fullscreen - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/full_window_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_dark_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Podcast overview - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/wide_window_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_light_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Podcast overview - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/wide_window_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_dark_linux.png</image>
     </screenshot>
   </screenshots>
   
   <releases>
-    <release date="2024-08-19" version ="1.7.00"/>  
-
+    <release date="2024-08-20" version ="1.8.1"/>  
+    <release date="2024-08-19" version ="1.7.0"/>  
     <release date="2024-08-16" version="1.6.0"/>      
     <release date="2024-08-01" version="1.5.2"/>    
     <release date="2024-05-06" version="0.3.7"/>
