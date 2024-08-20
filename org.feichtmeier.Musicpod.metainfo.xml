@@ -35,27 +35,27 @@
   <screenshots>
     <screenshot type="default">
       <caption>Album - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/album_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_light.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Album - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/album_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_dark.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Fullscreen - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/full_window_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_light.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Fullscreen - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/full_window_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_dark.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Podcast overview - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/wide_window_light.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_light.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Podcast overview - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/wide_window_dark.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_dark.png</image>
     </screenshot>
   </screenshots>
   
