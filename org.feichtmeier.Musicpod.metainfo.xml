@@ -11,7 +11,7 @@
   
   <description>
     <p>A Music, podcasts, and internet radio player built with Flutter for your Linux Desktop</p>
-    <p>Musicpod isn't <em>just</em> a music player. You can bro browse podcasts or listen to internet radio stations - all in one app!</p>
+    <p>Musicpod isn't <em>just</em> a music player. You can browse podcasts or listen to internet radio stations - all in one app!</p>
     <ul>
         <li>Play local audio files (mp3, flac, mp4, ogg)</li>
         <li>Find your local audio library sorted by metadata</li>
