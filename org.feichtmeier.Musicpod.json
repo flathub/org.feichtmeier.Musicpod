@@ -211,8 +211,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1384.snap",
-                            "sha256": "945e2aef1f12f2a9d486d7b7074786f7ce9d7c95b01fc6cf6383b297c73f80f4",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1427.snap",
+                            "sha256": "4f21d996c3fcbb29ca2a27c320fe7e80788eba96268b49688a73004eee599fb8",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -227,8 +227,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1385.snap",
-                            "sha256": "3ee51c0492c029f43c831bdaf14f9d0f227703ca3bea39fc8176cb0fb4d42dee",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1428.snap",
+                            "sha256": "7bf21b8df441e5554989701ebbcf559d588a145d571a4c897c345d85113352c9",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
