@@ -62,7 +62,6 @@
   <releases>
     <release version="0+git.b9596e8" date="2024-09-01">
       <description></description>
-    </release>
     <release date="2024-08-20" version="1.8.1"/>  
     <release date="2024-08-19" version="1.7.0"/>  
     <release date="2024-08-16" version="1.6.0"/>      
