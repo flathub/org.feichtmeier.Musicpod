@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/mpv-player/mpv/archive/v0.38.0.tar.gz",
-                    "sha256": "86d9ef40b6058732f67b46d0bbda24a074fae860b3eaae05bab3145041303066",
+                    "url": "https://github.com/mpv-player/mpv/archive/v0.39.0.tar.gz",
+                    "sha256": "2ca92437affb62c2b559b4419ea4785c70d023590500e8a52e95ea3ab4554683",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5348,
@@ -211,8 +211,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1455.snap",
-                            "sha256": "aaa95259afe3463843f3753c7bb4f870830dd99cc4a422b3fa448ae0a1752819",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1512.snap",
+                            "sha256": "5f9094978ca29fde8cb12e1cc861002bf0f8409bf5a06028bac92b385ab24073",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -227,8 +227,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1456.snap",
-                            "sha256": "10df5160f7d2bee7a06f8fd74591f7034e9f17bef04992e93c6d98a53eb383df",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1513.snap",
+                            "sha256": "935937dea0ac13a286cf0d626bbf1468e09179b8c9aa6792835c1b838d522f64",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
