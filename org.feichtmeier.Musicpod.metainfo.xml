@@ -60,9 +60,7 @@
   </screenshots>
   
   <releases>
-    <release version="0+git.97c88df" date="2025-05-13">
-      <description></description>
-    </release>
+    <release date="2025-05-13" version="2.12.0"/>
     <release date="2025-04-30" version="2.11.4"/>
     <release date="2025-04-30" version="2.11.3"/>
     <release date="2025-04-29" version="2.11.2"/>
