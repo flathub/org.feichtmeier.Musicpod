@@ -97,8 +97,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.xz",
-                            "sha256": "eae425da50f0015c21f7b3a9c7262a910f0218af469e22e2931462fed3c50959",
+                            "url": "https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.xz",
+                            "sha256": "78f1179b838d025e9c26e8fef33f8092f65611444ffa1bfc0cfac6a33511a05a",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 1560,
@@ -175,8 +175,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/plougher/squashfs-tools.git",
-                            "tag": "4.6.1",
-                            "commit": "d8cb82d9840330f9344ec37b992595b5d7b44184",
+                            "tag": "4.7",
+                            "commit": "2e87d42ed089dc31990d83eeb07437b9d085d6d1",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^([\\d.]+)$"
@@ -211,8 +211,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1961.snap",
-                            "sha256": "ac6b1fe84114ff49d58b3a1586229e1ca7d651e5297161f3a69fada44afec265",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1989.snap",
+                            "sha256": "ac63d29499e7b6afa952ff11dada3272e107319b88e31e40b3e90c3a82c19223",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -227,8 +227,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1960.snap",
-                            "sha256": "e36a64eb06eb6934e9c4a4aca5762d0bb05f84267e7cee90ef1edb2d7a2f1381",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1990.snap",
+                            "sha256": "49c1e35ab5ce7ef3c2cb884b28e8347c43c2c359f2df6d734ea9530964333c4a",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
