@@ -208,7 +208,7 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1996.snap",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2080.snap",
                             "sha256": "330acee1a17eb136fb577ac7428a4610064fb0f58bc1d1b0664abd79a8316667",
                             "x-checker-data": {
                                 "type": "snapcraft",
@@ -224,7 +224,7 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_1995.snap",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2090.snap",
                             "sha256": "c035841fce07ed18bb5aa5bb90129dfcb4ac869473fb03ae6cc040f1422d7d04",
                             "x-checker-data": {
                                 "type": "snapcraft",
