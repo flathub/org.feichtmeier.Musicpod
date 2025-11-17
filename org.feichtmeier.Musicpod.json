@@ -209,7 +209,7 @@
                                 "x86_64"
                             ],
                             "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2080.snap",
-                            "sha256": "330acee1a17eb136fb577ac7428a4610064fb0f58bc1d1b0664abd79a8316667",
+                            "sha256": "e1f284ea439d13be3198dea436b15de807414421b09a1b5c0874d82cad3d4d8a",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
