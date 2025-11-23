@@ -172,8 +172,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/plougher/squashfs-tools.git",
-                            "tag": "4.6.1",
-                            "commit": "d8cb82d9840330f9344ec37b992595b5d7b44184",
+                            "tag": "4.7.4",
+                            "commit": "bad1d213ab6df587d6fa0ef7286180fbf7b86167",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^([\\d.]+)$"
@@ -224,8 +224,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2090.snap",
-                            "sha256": "e1f284ea439d13be3198dea436b15de807414421b09a1b5c0874d82cad3d4d8a",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2081.snap",
+                            "sha256": "e95c1991c2b8abcd4207dc93bd382e6b338f960b9c4e36789153cd8046b234a0",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
