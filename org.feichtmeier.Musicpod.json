@@ -1,18 +1,8 @@
 {
     "app-id": "org.feichtmeier.Musicpod",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "version": "24.08",
-            "add-ld-path": "."
-        }
-    },
-    "cleanup-commands": [
-        "mkdir -p /app/lib/ffmpeg"
-    ],
     "command": "musicpod",
     "finish-args": [
         "--share=ipc",
@@ -51,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/mpv-player/mpv/archive/v0.40.0.tar.gz",
-                    "sha256": "10a0f4654f62140a6dd4d380dcf0bbdbdcf6e697556863dc499c296182f081a3",
+                    "url": "https://github.com/mpv-player/mpv/archive/v0.41.0.tar.gz",
+                    "sha256": "ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5348,
@@ -129,6 +119,10 @@
                                 "type": "git",
                                 "tag-pattern": "^v([\\d.]+)$"
                             }
+                        },
+                        {
+                            "type": "patch",
+                            "path": "fix-libplacebo-vulkan-python-xml.patch"
                         }
                     ]
                 },
@@ -137,7 +131,8 @@
                     "buildsystem": "cmake-ninja",
                     "config-opts": [
                         "-DCMAKE_BUILD_TYPE=Release",
-                        "-DBUILD_STATIC=0"
+                        "-DBUILD_STATIC=0",
+                        "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
                     ],
                     "cleanup": [
                         "/bin",
@@ -172,8 +167,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/plougher/squashfs-tools.git",
-                            "tag": "4.6.1",
-                            "commit": "d8cb82d9840330f9344ec37b992595b5d7b44184",
+                            "tag": "4.7.4",
+                            "commit": "bad1d213ab6df587d6fa0ef7286180fbf7b86167",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^([\\d.]+)$"
