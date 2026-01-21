@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>org.feichtmeier.Musicpod</id>
-  
   <name>musicpod</name>
   <summary>Music, podcast and internet radio player</summary>
-  
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <url type="homepage">https://github.com/ubuntu-flutter-community/musicpod</url>
-  
+  <url type="bugtracker">https://github.com/ubuntu-flutter-community/musicpod/issues</url>
+  <url type="vcs-browser">https://github.com/ubuntu-flutter-community/musicpod</url>
+  <launchable type="desktop-id">org.feichtmeier.Musicpod.desktop</launchable>
+  <developer id="org.feichtmeier">
+    <name>Frederik Feichtmeier</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
   <description>
     <p>A Music, podcasts, and internet radio player built with Flutter for your Linux Desktop</p>
     <p>Musicpod isn't <em>just</em> a music player. You can browse podcasts or listen to internet radio stations - all in one app!</p>
@@ -25,40 +29,19 @@
         <li>Gather a collection of your favorite radio/TV stations</li>
         <li>Jump easily between local audio genres and radio station genres</li>
         <li>Collect your favorite songs with the heart button</li>
-    <li>And much, much more!</li>
+        <li>And much, much more!</li>
     </ul>
   </description>
-<developer id="org.feichtmeier">
-  <name>Frederik Feichtmeier</name>
-</developer>
-
   <screenshots>
     <screenshot type="default">
       <caption>Album - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_light_linux.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/3a4730c4a7c5cb03423b02e617756f7854f1b540/.github/images/album_light_linux.png</image>
     </screenshot>
     <screenshot type="default">
       <caption>Album - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/album_dark_linux.png</image>
-    </screenshot>
-    <screenshot type="default">
-      <caption>Fullscreen - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_light_linux.png</image>
-    </screenshot>
-    <screenshot type="default">
-      <caption>Fullscreen - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/full_window_dark_linux.png</image>
-    </screenshot>
-    <screenshot type="default">
-      <caption>Podcast overview - light</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_light_linux.png</image>
-    </screenshot>
-    <screenshot type="default">
-      <caption>Podcast overview - dark</caption>
-      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/main/.github/images/wide_window_dark_linux.png</image>
+      <image type="source">https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/3a4730c4a7c5cb03423b02e617756f7854f1b540/.github/images/album_dark_linux.png</image>
     </screenshot>
   </screenshots>
-  
   <releases>
     <release date="2025-10-29" version="2.14.0"/>
     <release date="2025-04-30" version="2.11.4"/>
@@ -75,17 +58,13 @@
     <release date="2024-10-27" version="2.2.0"/>
     <release date="2024-10-22" version="2.1.0"/>
     <release date="2024-10-21" version="2.0.2"/>
-    <release date="2024-09-08" version="1.11.0+1"/> 
-    <release date="2024-09-08" version="1.11.0"/>      
-    <release date="2024-08-20" version="1.8.1"/>  
-    <release date="2024-08-19" version="1.7.0"/>  
-    <release date="2024-08-16" version="1.6.0"/>      
-    <release date="2024-08-01" version="1.5.2"/>    
+    <release date="2024-09-08" version="1.11.0+1"/>
+    <release date="2024-09-08" version="1.11.0"/>
+    <release date="2024-08-20" version="1.8.1"/>
+    <release date="2024-08-19" version="1.7.0"/>
+    <release date="2024-08-16" version="1.6.0"/>
+    <release date="2024-08-01" version="1.5.2"/>
     <release date="2024-05-06" version="0.3.7"/>
     <release date="2022-03-12" version="0.1.1"/>
   </releases>
-
-  <content_rating type="oars-1.1"/>
-
-  <launchable type="desktop-id">org.feichtmeier.Musicpod.desktop</launchable>
 </component>
