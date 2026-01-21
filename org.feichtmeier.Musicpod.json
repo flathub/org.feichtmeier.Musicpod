@@ -131,7 +131,8 @@
                     "buildsystem": "cmake-ninja",
                     "config-opts": [
                         "-DCMAKE_BUILD_TYPE=Release",
-                        "-DBUILD_STATIC=0"
+                        "-DBUILD_STATIC=0",
+                        "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
                     ],
                     "cleanup": [
                         "/bin",
