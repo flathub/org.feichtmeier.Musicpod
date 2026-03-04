@@ -113,8 +113,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/haasn/libplacebo.git",
-                            "tag": "v7.351.0",
-                            "commit": "3188549fba13bbdf3a5a98de2a38c2e71f04e21e",
+                            "tag": "v7.360.0",
+                            "commit": "b2ea27dceb6418aabfe9121174c6dbb232942998",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^v([\\d.]+)$"
@@ -167,8 +167,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/plougher/squashfs-tools.git",
-                            "tag": "4.7.4",
-                            "commit": "bad1d213ab6df587d6fa0ef7286180fbf7b86167",
+                            "tag": "4.7.5",
+                            "commit": "708c59ae80853b0845017c33b42e56061cc546cd",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^([\\d.]+)$"
@@ -203,8 +203,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2080.snap",
-                            "sha256": "fc0f7ccbe5d82c0eefcabc5a4b31fa7c3562baaba09e814dfd9fa17813e1ca9e",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2152.snap",
+                            "sha256": "d05851c974d0eded8661a85802bfaed9fb33fb578f3dd85a1b351d9f8c2826f3",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -219,8 +219,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2081.snap",
-                            "sha256": "e95c1991c2b8abcd4207dc93bd382e6b338f960b9c4e36789153cd8046b234a0",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2151.snap",
+                            "sha256": "7a2abd30c80a92fa164ff660658abd45c4742a826d0d6f8aeca5f7e62ff94f00",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
