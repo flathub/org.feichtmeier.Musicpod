@@ -64,7 +64,7 @@
                     "sources": [
                         {
                             "type": "git",
-                            "url": "https://git.videolan.org/git/ffmpeg/nv-codec-headers.git",
+                            "url": "https://github.com/FFmpeg/nv-codec-headers.git",
                             "tag": "n13.0.19.0",
                             "commit": "e844e5b26f46bb77479f063029595293aa8f812d",
                             "x-checker-data": {
@@ -203,8 +203,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2080.snap",
-                            "sha256": "fc0f7ccbe5d82c0eefcabc5a4b31fa7c3562baaba09e814dfd9fa17813e1ca9e",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2152.snap",
+                            "sha256": "d05851c974d0eded8661a85802bfaed9fb33fb578f3dd85a1b351d9f8c2826f3",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -219,8 +219,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2081.snap",
-                            "sha256": "e95c1991c2b8abcd4207dc93bd382e6b338f960b9c4e36789153cd8046b234a0",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2151.snap",
+                            "sha256": "7a2abd30c80a92fa164ff660658abd45c4742a826d0d6f8aeca5f7e62ff94f00",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
