@@ -8,6 +8,7 @@
   <url type="homepage">https://github.com/ubuntu-flutter-community/musicpod</url>
   <url type="bugtracker">https://github.com/ubuntu-flutter-community/musicpod/issues</url>
   <url type="vcs-browser">https://github.com/ubuntu-flutter-community/musicpod</url>
+  <url type="translate">https://hosted.weblate.org/projects/musicpod/app</url>
   <launchable type="desktop-id">org.feichtmeier.Musicpod.desktop</launchable>
   <developer id="org.feichtmeier">
     <name>Frederik Feichtmeier</name>
@@ -43,7 +44,17 @@
     </screenshot>
   </screenshots>
   <releases>
-<release date="2026-03-03" version="2.15.0"/>
+    <!--
+    <release date="2026-03-28" version="2.16.0">
+      <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.16.0</url>
+    </release>
+    -->
+    <release date="2026-03-27" version="2.15.1">
+      <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.15.1</url>
+    </release>
+    <release date="2026-03-03" version="2.15.0">
+      <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.15.0</url>
+    </release>
     <release date="2025-10-29" version="2.14.0"/>
     <release date="2025-04-30" version="2.11.4"/>
     <release date="2025-04-30" version="2.11.3"/>
