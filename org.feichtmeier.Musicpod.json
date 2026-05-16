@@ -17,19 +17,16 @@
         "--talk-name=org.gnome.SessionManager",
         "--system-talk-name=org.freedesktop.NetworkManager"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/share/man",
+        "*.la"
+    ],
     "modules": [
         {
             "name": "libmpv",
-            "cleanup": [
-                "/include",
-                "/lib/pkgconfig",
-                "/share/applications",
-                "/share/bash-completion",
-                "/share/doc",
-                "/share/icons",
-                "/share/man",
-                "/share/zsh"
-            ],
             "buildsystem": "meson",
             "config-opts": [
                 "-Dbuild-date=false",
@@ -37,6 +34,12 @@
                 "-Dcplayer=false",
                 "-Dmanpage-build=disabled",
                 "-Dalsa=disabled"
+            ],
+            "cleanup": [
+                "/share/applications",
+                "/share/bash-completion",
+                "/share/icons",
+                "/share/zsh"
             ],
             "sources": [
                 {
@@ -53,34 +56,7 @@
             ],
             "modules": [
                 {
-                    "name": "nv-codec-headers",
-                    "cleanup": [
-                        "*"
-                    ],
-                    "no-autogen": true,
-                    "make-install-args": [
-                        "PREFIX=/app"
-                    ],
-                    "sources": [
-                        {
-                            "type": "git",
-                            "url": "https://github.com/FFmpeg/nv-codec-headers.git",
-                            "tag": "n13.0.19.0",
-                            "commit": "e844e5b26f46bb77479f063029595293aa8f812d",
-                            "x-checker-data": {
-                                "type": "git",
-                                "tag-pattern": "^n([\\d.]+)$"
-                            }
-                        }
-                    ]
-                },
-                {
                     "name": "libass",
-                    "cleanup": [
-                        "/include",
-                        "/lib/*.la",
-                        "/lib/pkgconfig"
-                    ],
                     "config-opts": [
                         "--disable-static"
                     ],
@@ -100,11 +76,6 @@
                 },
                 {
                     "name": "libplacebo",
-                    "cleanup": [
-                        "/include",
-                        "/lib/*.la",
-                        "/lib/pkgconfig"
-                    ],
                     "buildsystem": "meson",
                     "config-opts": [
                         "-Dglslang=disabled"
@@ -117,7 +88,10 @@
                             "commit": "3188549fba13bbdf3a5a98de2a38c2e71f04e21e",
                             "x-checker-data": {
                                 "type": "git",
-                                "tag-pattern": "^v([\\d.]+)$"
+                                "tag-pattern": "^v([\\d.]+)$",
+                                "versions": {
+                                    "<": "7.360"
+                                }
                             }
                         },
                         {
@@ -132,13 +106,8 @@
                     "config-opts": [
                         "-DCMAKE_BUILD_TYPE=Release",
                         "-DBUILD_STATIC=0",
+                        "-DBUILD_BINARY=OFF",
                         "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
-                    ],
-                    "cleanup": [
-                        "/bin",
-                        "/include",
-                        "/lib/pkgconfig",
-                        "/share/man"
                     ],
                     "sources": [
                         {
@@ -171,7 +140,9 @@
                             "commit": "bad1d213ab6df587d6fa0ef7286180fbf7b86167",
                             "x-checker-data": {
                                 "type": "git",
-                                "tag-pattern": "^([\\d.]+)$"
+                                "versions": {
+                                    "<": "4.7.5"
+                                }
                             }
                         }
                     ]
@@ -183,14 +154,9 @@
                         "unsquashfs -quiet -no-progress musicpod.snap",
                         "cp -r squashfs-root/bin /app",
                         "install -Dm644 squashfs-root/meta/gui/musicpod.desktop /app/share/applications/org.feichtmeier.Musicpod.desktop",
-                        "desktop-file-edit --set-icon='org.feichtmeier.Musicpod' /app/share/applications/org.feichtmeier.Musicpod.desktop",
+                        "desktop-file-edit --set-icon=org.feichtmeier.Musicpod /app/share/applications/org.feichtmeier.Musicpod.desktop",
                         "install -Dm644 squashfs-root/meta/gui/musicpod.png /app/share/icons/hicolor/256x256/apps/org.feichtmeier.Musicpod.png",
-                        "install -Dm644 org.feichtmeier.Musicpod.metainfo.xml /app/share/metainfo/org.feichtmeier.Musicpod.metainfo.xml"
-                    ],
-                    "cleanup": [
-                        "/include",
-                        "/lib/pkgconfig",
-                        "/share/man"
+                        "install -Dm644 org.feichtmeier.Musicpod.metainfo.xml -t /app/share/metainfo/"
                     ],
                     "sources": [
                         {
@@ -199,12 +165,17 @@
                         },
                         {
                             "type": "file",
+                            "url": "https://raw.githubusercontent.com/ubuntu-flutter-community/musicpod/231e4c2c8769ce27604e4a50ff119c733a1d35da/LICENSE",
+                            "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+                        },
+                        {
+                            "type": "file",
                             "dest-filename": "musicpod.snap",
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2152.snap",
-                            "sha256": "d05851c974d0eded8661a85802bfaed9fb33fb578f3dd85a1b351d9f8c2826f3",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2193.snap",
+                            "sha256": "826884be50315c836f893fb9fc66fc98b08f83abb9de542509f74fe6d7aa3dda",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -219,8 +190,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2151.snap",
-                            "sha256": "7a2abd30c80a92fa164ff660658abd45c4742a826d0d6f8aeca5f7e62ff94f00",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2194.snap",
+                            "sha256": "59ed5a22a8f538aed164a650e4fe47e74f305c8c971ca0fde23825a47e848156",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
