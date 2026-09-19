@@ -1,7 +1,7 @@
 {
     "app-id": "org.feichtmeier.Musicpod",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "25.08",
+    "runtime-version": "26.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "musicpod",
     "finish-args": [
@@ -9,7 +9,7 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--filesystem=home",
+        "--filesystem=xdg-music",
         "--device=dri",
         "--socket=pulseaudio",
         "--env=TMPDIR=/var/tmp",
@@ -77,26 +77,16 @@
                 {
                     "name": "libplacebo",
                     "buildsystem": "meson",
-                    "config-opts": [
-                        "-Dglslang=disabled"
-                    ],
                     "sources": [
                         {
                             "type": "git",
                             "url": "https://github.com/haasn/libplacebo.git",
-                            "tag": "v7.351.0",
-                            "commit": "3188549fba13bbdf3a5a98de2a38c2e71f04e21e",
+                            "commit": "cee9b076f2c63104ccfd497fa79c39a867293ec4",
+                            "tag": "v7.360.1",
                             "x-checker-data": {
                                 "type": "git",
-                                "tag-pattern": "^v([\\d.]+)$",
-                                "versions": {
-                                    "<": "7.360"
-                                }
+                                "tag-pattern": "^v([\\d.]+)$"
                             }
-                        },
-                        {
-                            "type": "patch",
-                            "path": "fix-libplacebo-vulkan-python-xml.patch"
                         }
                     ]
                 },
@@ -174,8 +164,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2193.snap",
-                            "sha256": "826884be50315c836f893fb9fc66fc98b08f83abb9de542509f74fe6d7aa3dda",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2575.snap",
+                            "sha256": "d9d92e16e9ea3ccbe10e16c43362748c1d8c8532dd0cfd826631662f7d4d77af",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -190,8 +180,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2194.snap",
-                            "sha256": "59ed5a22a8f538aed164a650e4fe47e74f305c8c971ca0fde23825a47e848156",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2574.snap",
+                            "sha256": "1657ab7dd41eac1401524b7db84977df546061ae7e668445ecaae1e72798184c",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",

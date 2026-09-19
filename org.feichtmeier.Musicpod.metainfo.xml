@@ -49,6 +49,12 @@
       <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.16.0</url>
     </release>
     -->
+    <release date="2026-09-19" version="3.0.0">
+      <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v3.0.0</url>
+    </release>
+    <release date="2026-04-03" version="2.16.0">
+      <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.16.0</url>
+    </release>
     <release date="2026-03-27" version="2.15.1">
       <url>https://github.com/ubuntu-flutter-community/musicpod/releases/tag/v2.15.1</url>
     </release>
