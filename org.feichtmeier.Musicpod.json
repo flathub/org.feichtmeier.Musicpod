@@ -10,6 +10,7 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--filesystem=xdg-music",
+        "--persistent=Documents",
         "--device=dri",
         "--socket=pulseaudio",
         "--env=TMPDIR=/var/tmp",
