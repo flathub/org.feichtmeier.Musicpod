@@ -9,7 +9,7 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--filesystem=xdg-home",
+        "--filesystem=home",
         "--device=dri",
         "--socket=pulseaudio",
         "--env=TMPDIR=/var/tmp",
