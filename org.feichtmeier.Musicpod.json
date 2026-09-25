@@ -9,7 +9,7 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--filesystem=home",
+        "--filesystem=xdg-music",
         "--device=dri",
         "--socket=pulseaudio",
         "--env=TMPDIR=/var/tmp",
@@ -164,8 +164,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2575.snap",
-                            "sha256": "d9d92e16e9ea3ccbe10e16c43362748c1d8c8532dd0cfd826631662f7d4d77af",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2587.snap",
+                            "sha256": "16852eed4ee373fb96373c72d8cea58c9b87ae13d2c5120798a3cd2180191963",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -180,8 +180,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2574.snap",
-                            "sha256": "1657ab7dd41eac1401524b7db84977df546061ae7e668445ecaae1e72798184c",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2586.snap",
+                            "sha256": "c747ee6624e9c3810f9b05ec4930a62d2dbdbd8e4c0dafed9372067e9c01af1d",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
