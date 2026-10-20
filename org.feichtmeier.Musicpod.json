@@ -63,8 +63,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/libass/libass/releases/download/0.17.4/libass-0.17.4.tar.xz",
-                            "sha256": "78f1179b838d025e9c26e8fef33f8092f65611444ffa1bfc0cfac6a33511a05a",
+                            "url": "https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.xz",
+                            "sha256": "2dca25c0e0c837ddf00b52011b3f82cac1e4ddd3ad018227806b0c2288864acc",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 1560,
@@ -164,8 +164,8 @@
                             "only-arches": [
                                 "x86_64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2587.snap",
-                            "sha256": "16852eed4ee373fb96373c72d8cea58c9b87ae13d2c5120798a3cd2180191963",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2669.snap",
+                            "sha256": "9dcd6854f536606d9058263774827227524e1afce59ca340ebe726f343da44cf",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
@@ -180,8 +180,8 @@
                             "only-arches": [
                                 "aarch64"
                             ],
-                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2586.snap",
-                            "sha256": "c747ee6624e9c3810f9b05ec4930a62d2dbdbd8e4c0dafed9372067e9c01af1d",
+                            "url": "https://api.snapcraft.io/api/v1/snaps/download/sxdOSGRbzsWhPmGrkYYAs68rzieTrIiv_2668.snap",
+                            "sha256": "28ef51381e025309accec5d5bf0fa8c2cd285755e5e57350c456fa71a1c4272f",
                             "x-checker-data": {
                                 "type": "snapcraft",
                                 "name": "musicpod",
