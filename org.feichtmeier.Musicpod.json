@@ -1,7 +1,7 @@
 {
     "app-id": "org.feichtmeier.Musicpod",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "26.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "musicpod",
     "finish-args": [
